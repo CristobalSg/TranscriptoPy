@@ -1,0 +1,66 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python: caché y bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Empaquetado y compilación
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+
+# Pruebas, cobertura y herramientas
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Resultados y temporales del transcriptor
+resultados/
+*.tmp.txt
+*.tmp.wav
+*.tmp.json
+
+# Archivos multimedia de entrada o trabajo (normalmente grandes)
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.wav
+
+# Editores e IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Registros y archivos locales
+*.log
+.env
+.env.*
+!.env.example
+
